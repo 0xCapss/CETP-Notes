@@ -10,7 +10,6 @@ date:
 status: todo
 lo: LO-01, LO-02, LO-03
 ---
-
 # Module I — Windows Internals
 
 ## Learning Objectives

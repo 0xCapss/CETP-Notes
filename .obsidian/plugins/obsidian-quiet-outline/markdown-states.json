@@ -3,16 +3,17 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 6
+        "line": 25,
+        "ch": 3
       },
       "to": {
-        "line": 19,
-        "ch": 6
+        "line": 25,
+        "ch": 4
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-2"
     ]
   },
   "Sans titre.md": {
@@ -53,6 +54,22 @@
       "to": {
         "line": 30,
         "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "README.md": {
+    "scroll": 8.47517730496454,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 43
+      },
+      "to": {
+        "line": 12,
+        "ch": 43
       }
     },
     "expandedKeys": [
