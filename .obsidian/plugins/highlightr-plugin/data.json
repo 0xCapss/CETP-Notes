@@ -1,0 +1,16 @@
+{
+  "highlighterStyle": "none",
+  "highlighterMethods": "inline-styles",
+  "highlighters": {
+    "points-critiques": "#FF4444",
+    "Commandes-importantes": " #FFD700 ",
+    "LOs-Validés": "#44BB44",
+    "Liens-Modules": "#4488FF"
+  },
+  "highlighterOrder": [
+    "points-critiques",
+    "Commandes-importantes",
+    "LOs-Validés",
+    "Liens-Modules"
+  ]
+}
