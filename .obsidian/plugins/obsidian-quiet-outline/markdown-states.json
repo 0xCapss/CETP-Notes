@@ -1,14 +1,14 @@
 {
   "01-Windows-Internals/Windows-Internals.md": {
-    "scroll": 0,
+    "scroll": 24.743489583333332,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 3
+        "line": 37,
+        "ch": 15
       },
       "to": {
-        "line": 25,
-        "ch": 4
+        "line": 37,
+        "ch": 15
       }
     },
     "expandedKeys": [
@@ -48,12 +48,12 @@
     "scroll": 0.9019807008633824,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 52
+        "line": 30,
+        "ch": 14
       },
       "to": {
-        "line": 7,
-        "ch": 52
+        "line": 30,
+        "ch": 14
       }
     },
     "expandedKeys": [
