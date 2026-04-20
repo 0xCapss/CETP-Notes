@@ -1,14 +1,14 @@
 {
   "01-Windows-Internals/Windows-Internals.md": {
-    "scroll": 0,
+    "scroll": 4.079320113314448,
     "cursor": {
       "from": {
-        "line": 14,
-        "ch": 20
+        "line": 16,
+        "ch": 6
       },
       "to": {
-        "line": 14,
-        "ch": 20
+        "line": 16,
+        "ch": 6
       }
     },
     "expandedKeys": [
@@ -45,7 +45,7 @@
     "expandedKeys": []
   },
   "CETP-Index.md": {
-    "scroll": 0.9019807008633824,
+    "scroll": 13.0243274341132,
     "cursor": {
       "from": {
         "line": 30,
