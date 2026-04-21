@@ -22,7 +22,9 @@ lo: LO-01, LO-02, LO-03
 ### Process
 #### User-mode Presentation - Process Properties
 ##### General information
-
+- A **process** is a container that separate application from each other.
+- It can manages **Threads**, **Handles**, **Token** and **Memory**.
+	- A Thread is a smallest sequence of programmed instruction that can be managed by a scheduler. It exists within a process and shares its memory space with other threads of the same process.
 
 
 ### PE Format
