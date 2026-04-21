@@ -1,14 +1,14 @@
 {
   "01-Windows-Internals/Windows-Internals.md": {
-    "scroll": 4.079320113314448,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 6
+        "line": 22,
+        "ch": 0
       },
       "to": {
-        "line": 16,
-        "ch": 6
+        "line": 22,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -45,15 +45,15 @@
     "expandedKeys": []
   },
   "CETP-Index.md": {
-    "scroll": 13.0243274341132,
+    "scroll": 5.029149087721221,
     "cursor": {
       "from": {
-        "line": 48,
-        "ch": 36
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 48,
-        "ch": 36
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -64,12 +64,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 43
+        "line": 2,
+        "ch": 11
       },
       "to": {
-        "line": 12,
-        "ch": 43
+        "line": 2,
+        "ch": 11
       }
     },
     "expandedKeys": [
