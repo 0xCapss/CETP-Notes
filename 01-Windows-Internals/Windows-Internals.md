@@ -19,13 +19,18 @@ lo: LO-01, LO-02, LO-03
 - [ ] 
 ## Key Concepts
 
-### 
+### Process
+#### User-mode Presentation - Process Properties
+##### General information
 
-### 
 
-### 
 
-## Notes
+### PE Format
+
+### Windows Architecture
+
+### Execution Flow
+
 
 ## Lab
 
@@ -48,8 +53,3 @@ lo: LO-01, LO-02, LO-03
 ## Detection & Mitigations
 
 > How would a Blue Team detect this?
-
-## Links
-
-- [[CETP-Index]]
-- [[02-EDR-Internals/EDR-Internals]]
