@@ -29,6 +29,8 @@ lo: LO-01, LO-02, LO-03
 	- A **Token** is a kernel object that describes the security context of a process  or thread (user identity, group memberships, privileges).
 - However, a **process** doesn't run any code, only the **Thread** can run the code.
 - We can identify a process by its Process ID (**PID**), not with it's executable file.
+- If a process is destroyed, another process can reuse its **PID**
+- 
 
 
 ### PE Format
