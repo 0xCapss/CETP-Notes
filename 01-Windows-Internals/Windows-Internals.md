@@ -34,7 +34,18 @@ lo: LO-01, LO-02, LO-03
 ##### Integrity level
 - **Low integrity:**
 	- The least trust level. Can **only** interact with **low-integrity** process.
-	- It can only write to specific low-integrity location such as: ***%USERPROFILE%\AppData\LocalLow*** folder 
+	- It can only write to specific low-integrity location such as: ***%USERPROFILE%\AppData\LocalLow*** folder and limited access to **HKEY_CURRENT_USER**. 
+- **Medium integrity:**
+	- Default level for the most process (Microsoft Word, ...).  It can interact with **Medium** or **Low** integrity process. 
+	- Can write only on **user-owned** folders like Documents, Downloads, Desktop or AppData/Roaming and access only to **HKEY_CURRENT_USER** registry.
+- **High Integrity:**
+	- This level describes for applications running with **Administrative privileges**. Can interact with **High, Medium and Low** integrity process.
+	- Can write to System directories (C:\Windows or Program Files) and full access to registry keys.
+- **System Integrity:**
+	- The **highest level** integrity. It can interact with all integrity level.
+	- It has **full access** to the file system and the registry key.
+##### Process protection levels
+
 ### PE Format
 
 ### Windows Architecture
