@@ -48,4 +48,4 @@ lo: LO-04, LO-05
 ## Links
 
 - [[CETP-Index]]
-- [[01-Windows-Internals/Windows-Internals]]
+- [[Windows-Internals - Process]]

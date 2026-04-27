@@ -1,14 +1,14 @@
 {
   "01-Windows-Internals/Windows-Internals.md": {
-    "scroll": 11.997395833333334,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 27
+        "line": 62,
+        "ch": 0
       },
       "to": {
-        "line": 25,
-        "ch": 27
+        "line": 57,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -45,15 +45,15 @@
     "expandedKeys": []
   },
   "CETP-Index.md": {
-    "scroll": 5.029149087721221,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 7,
+        "ch": 48
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 7,
+        "ch": 48
       }
     },
     "expandedKeys": [
@@ -75,5 +75,117 @@
     "expandedKeys": [
       "item-1-0"
     ]
+  },
+  "17-Anti-Analysis/Anti-Analysis.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-Windows-Internals/Lab.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 6
+      },
+      "to": {
+        "line": 6,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-Windows-Internals/Windows-Internals - Process.md": {
+    "scroll": 44.22689573459716,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 4
+      },
+      "to": {
+        "line": 10,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-Windows-Internals/Windows-Internals - Process 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-Windows-Internals/Windows-Internals - PE Format.md": {
+    "scroll": 1.5916955017301038,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 12
+      },
+      "to": {
+        "line": 10,
+        "ch": 12
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-Windows-Internals/Windows-Internals - PE Format 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-Windows-Internals/Windows-Internals - Windows Architecture.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 53
+      },
+      "to": {
+        "line": 10,
+        "ch": 53
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-Windows-Internals/Windows-Internals - Windows Architecture 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 33
+      },
+      "to": {
+        "line": 10,
+        "ch": 47
+      }
+    },
+    "expandedKeys": []
   }
 }

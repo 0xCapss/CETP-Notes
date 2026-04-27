@@ -1,0 +1,138 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "01-Windows-Internals",
+        "02-EDR-Internals",
+        "03-Static-Detection-Bypass",
+        "04-Initial-Access",
+        "05-Kernel-Development",
+        "06-Road-to-Kernel",
+        "07-EDR-Killing",
+        "08-Kernel-Callbacks",
+        "09-ETW-Attacks",
+        "10-PPL-Bypass",
+        "11-Rootkit-Techniques",
+        "12-C2-Tunneling",
+        "13-Blocking-EDR-Traffic",
+        "14-ASR-Bypass",
+        "15-Sysmon-Attacks",
+        "16-UAC-Bypass",
+        "17-Anti-Analysis",
+        "CETP-Index.md",
+        "LICENSE",
+        "README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "01-Windows-Internals": {
+      "children": [
+        "01-Windows-Internals/Windows-Internals - Process.md",
+        "01-Windows-Internals/Windows-Internals - PE Format.md",
+        "01-Windows-Internals/Windows-Internals - Windows Architecture.md",
+        "01-Windows-Internals/Windows-Internals - Execution flow.md",
+        "01-Windows-Internals/Lab.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "02-EDR-Internals": {
+      "children": [
+        "02-EDR-Internals/EDR-Internals.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "03-Static-Detection-Bypass": {
+      "children": [
+        "03-Static-Detection-Bypass/Static-Detection-Bypass.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "04-Initial-Access": {
+      "children": [
+        "04-Initial-Access/Initial-Access.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "05-Kernel-Development": {
+      "children": [
+        "05-Kernel-Development/Kernel-Development.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "06-Road-to-Kernel": {
+      "children": [
+        "06-Road-to-Kernel/Road-to-Kernel.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "07-EDR-Killing": {
+      "children": [
+        "07-EDR-Killing/EDR-Killing.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "08-Kernel-Callbacks": {
+      "children": [
+        "08-Kernel-Callbacks/Kernel-Callbacks.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "09-ETW-Attacks": {
+      "children": [
+        "09-ETW-Attacks/ETW-Attacks.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "10-PPL-Bypass": {
+      "children": [
+        "10-PPL-Bypass/PPL-Bypass.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "11-Rootkit-Techniques": {
+      "children": [
+        "11-Rootkit-Techniques/Rootkit-Techniques.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "12-C2-Tunneling": {
+      "children": [
+        "12-C2-Tunneling/C2-Tunneling.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "13-Blocking-EDR-Traffic": {
+      "children": [
+        "13-Blocking-EDR-Traffic/Blocking-EDR-Traffic.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "14-ASR-Bypass": {
+      "children": [
+        "14-ASR-Bypass/ASR-Bypass.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "15-Sysmon-Attacks": {
+      "children": [
+        "15-Sysmon-Attacks/Sysmon-Attacks.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "16-UAC-Bypass": {
+      "children": [
+        "16-UAC-Bypass/UAC-Bypass.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "17-Anti-Analysis": {
+      "children": [
+        "17-Anti-Analysis/Anti-Analysis.md"
+      ],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "custom",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}

@@ -8,13 +8,8 @@ tags:
 status: todo
 lo: LO-01, LO-02, LO-03
 ---
-# Module I — Windows Internals
+# Module I - Windows Internals - Process
 
-## Learning Objectives
-
-- [ ] 
-- [ ] 
-- [ ] 
 ## Key Concepts
 
 ### Process
@@ -60,33 +55,5 @@ lo: LO-01, LO-02, LO-03
 	- Protection: Protected-Light (1)
 	- Purpose: Secure antivirus/antimalware software from tampering.
 - ...
-### PE Format
-
-### Windows Architecture
-
-### Execution Flow
-
-
-## Lab
-
-### Goal
-
-### Steps
-
-### Result
-
-## Code / Tools
-
-```c
-
-```
-
-## Offensive Relevance
-
-> Why does this matter for a Red Teamer?
-
-## Detection & Mitigations
-
-> How would a Blue Team detect this?
 
 ## References
