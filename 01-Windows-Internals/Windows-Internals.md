@@ -52,7 +52,16 @@ lo: LO-01, LO-02, LO-03
 - **PS_PROTECTED_SYSTEM - 0x72**
 	- Signer: WinSystem(7)
 	- Protection: Protected(2)
-	- 
+	- Purpose: Higher protection for hypervisor-related process (ex: to secure the Kernel).
+- **PS_PROTECTED_LSA_LIGHT - 0x41**
+	- Signer: LSA (4)
+	- Protection: Protected-Light (1)
+	- Purpose: Shield the Local Security Authority (LSASS) & Prevent Credentials Attacks (e.g Mimikatz).
+- **PS_PROTECTED_ANTIMALWARE_LIGHT - 0x31**
+	- Signer: Antimalware (3)
+	- Protection: Protected-Light (1)
+	- Purpose: Secure antivirus/antimalware software from tampering.
+- ...
 ### PE Format
 
 ### Windows Architecture
@@ -81,3 +90,5 @@ lo: LO-01, LO-02, LO-03
 ## Detection & Mitigations
 
 > How would a Blue Team detect this?
+
+## References
