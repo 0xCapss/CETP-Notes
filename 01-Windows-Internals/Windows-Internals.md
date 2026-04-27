@@ -5,8 +5,6 @@ tags:
   - PE
   - user-mode
   - kernel-mode
-phase: cetp
-date:
 status: todo
 lo: LO-01, LO-02, LO-03
 ---
