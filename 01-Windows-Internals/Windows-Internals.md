@@ -45,7 +45,14 @@ lo: LO-01, LO-02, LO-03
 	- The **highest level** integrity. It can interact with all integrity level.
 	- It has **full access** to the file system and the registry key.
 ##### Process protection levels
+- These levels are defined by **2 components:**
+	- **Signer**: who signed the process (Windows, Antimalware).
+	- Protection type: Strength of the protection (Protected or Protected-Light).
 
+- **PS_PROTECTED_SYSTEM - 0x72**
+	- Signer: WinSystem(7)
+	- Protection: Protected(2)
+	- 
 ### PE Format
 
 ### Windows Architecture
