@@ -54,6 +54,6 @@ lo: LO-01, LO-02, LO-03
 	- Signer: Antimalware (3)
 	- Protection: Protected-Light (1)
 	- Purpose: Secure antivirus/antimalware software from tampering.
-- ...
+
 
 ## References
