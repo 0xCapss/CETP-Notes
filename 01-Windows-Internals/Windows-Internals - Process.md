@@ -58,5 +58,9 @@ lo: LO-01, LO-02, LO-03
 ##### Mitigation policies
 - **Protection mitigation policies** are security mechanisms implemented in Windows **to reduce the attack surface** and **protect against exploitation techniques**. We will see some examples below.
 - **Data Execution Prevention (DEP)**: Prevents code execution from non-executable memory region (stack, heap). Block buffer overflow exploit.
-- Adress Space Layout Randomisation (ASLR): 
+- **Address Space Layout Randomisation (ASLR)**: Randomizes memory address of executables, DLLs, to mitigate Return-Oriented Programming (ROP) and code reuse attacks.
+- **Control Flow Guard (CFG):** Prevent memory corruption exploits.
+- **Signature restricted**: Allow only Microsoft-signed code to execute.
+- **Image Restricted**: Blocks loading executables/DLLs from network share (SMB, WebDav).
 ## References
+https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/overview-of-threat-mitigations-in-windows-10
