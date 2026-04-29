@@ -20,9 +20,10 @@ lo: LO-01, LO-02, LO-03
 	- A **Thread** is a smallest sequence of programmed instruction that can be managed by a scheduler. It exists within a process and shares its memory space with other threads of the same process. Threads are scheduled for execution by the operating system and managed in the context of a process. 
 	- A **Handle** is an abstract reference to a kernel object (file, process, thread, registry key, ...) that allows user-mode code to interact with kernel resources without direct memory access. 
 	- A **Token** is a kernel object that describes the security context of a process  or thread (user identity, group memberships, privileges).
+- Each process has its **own address space**, its **own threads**, its **own handle table**, its **own token**, its own **PID**
 - However, a **process** doesn't run any code, only the **Thread** can run the code.
 - We can identify a process by its Process ID (**PID**), not with it's executable file.
-- If a process is destroyed, another proc1365ess can reuse its **PID**
+- If a process is destroyed, another proc1365ess can reuse its **PID**.
 - Every process has an **integrity** level which defines what the process is able to do. 
 ##### Integrity level
 - **Low integrity:**
