@@ -12,9 +12,8 @@ lo: LO-01, LO-02, LO-03
 
 ## Key Concepts
 
-### Process
-#### User-mode Presentation - Process Properties
-##### General information
+### User-mode Presentation - Process Properties
+#### General information
 - A **process** is a container that separate application from each other.
 - It can manages **Threads**, **Handles**, **Token** and **Memory**.
 	- A **Thread** is a smallest sequence of programmed instruction that can be managed by a scheduler. It exists within a process and shares its memory space with other threads of the same process. Threads are scheduled for execution by the operating system and managed in the context of a process. 
@@ -25,7 +24,7 @@ lo: LO-01, LO-02, LO-03
 - We can identify a process by its Process ID (**PID**), not with it's executable file.
 - If a process is destroyed, another process can reuse its **PID**.
 - Every process has an **integrity** level which defines what the process is able to do. 
-##### Integrity level
+#### Integrity level
 - **Low integrity:**
 	- The least trust level. Can **only** interact with **low-integrity** process.
 	- It can only write to specific low-integrity location such as: ***%USERPROFILE%\AppData\LocalLow*** folder and limited access to **HKEY_CURRENT_USER**. 
@@ -41,7 +40,7 @@ lo: LO-01, LO-02, LO-03
 ##### Process protection levels
 - These levels are defined by **2 components:**
 	- **Signer**: who signed the process (Windows, Antimalware).
-	- Protection type: Strength of the protection (Protected or Protected-Light).
+	- **Protection type**: Strength of the protection (Protected or Protected-Light).
 
 - **PS_PROTECTED_SYSTEM - 0x72**
 	- Signer: WinSystem(7)
