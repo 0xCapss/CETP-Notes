@@ -37,7 +37,7 @@ lo: LO-01, LO-02, LO-03
 - **System Integrity:**
 	- The **highest level** integrity. It can interact with all integrity level.
 	- It has **full access** to the file system and the registry key.
-##### Process protection levels
+#### Process protection levels
 - These levels are defined by **2 components:**
 	- **Signer**: who signed the process (Windows, Antimalware).
 	- **Protection type**: Strength of the protection (Protected or Protected-Light).
@@ -54,7 +54,7 @@ lo: LO-01, LO-02, LO-03
 	- Signer: Antimalware (3)
 	- Protection: Protected-Light (1)
 	- Purpose: Secure antivirus/antimalware software from tampering.
-##### Mitigation policies
+#### Mitigation policies
 - **Protection mitigation policies** are security mechanisms implemented in Windows **to reduce the attack surface** and **protect against exploitation techniques**. We will see some examples below.
 - **Data Execution Prevention (DEP)**: Prevents code execution from non-executable memory region (stack, heap). Block buffer overflow exploit.
 - **Address Space Layout Randomisation (ASLR)**: Randomizes memory address of executables, DLLs, to mitigate Return-Oriented Programming (ROP) and code reuse attacks.
