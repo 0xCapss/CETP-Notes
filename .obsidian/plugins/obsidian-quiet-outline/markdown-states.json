@@ -105,15 +105,15 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process.md": {
-    "scroll": 0.5536332179930796,
+    "scroll": 33.39578163771712,
     "cursor": {
       "from": {
-        "line": 26,
-        "ch": 89
+        "line": 60,
+        "ch": 2
       },
       "to": {
-        "line": 26,
-        "ch": 89
+        "line": 60,
+        "ch": 8
       }
     },
     "expandedKeys": []
@@ -184,6 +184,20 @@
       "to": {
         "line": 10,
         "ch": 47
+      }
+    },
+    "expandedKeys": []
+  },
+  "02-EDR-Internals/EDR-Internals.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 50,
+        "ch": 2
+      },
+      "to": {
+        "line": 50,
+        "ch": 2
       }
     },
     "expandedKeys": []

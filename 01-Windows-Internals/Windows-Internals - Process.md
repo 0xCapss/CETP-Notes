@@ -23,7 +23,7 @@ lo: LO-01, LO-02, LO-03
 - Each process has its **own address space**, its **own threads**, its **own handle table**, its **own token**, its own **PID**
 - However, a **process** doesn't run any code, only the **Thread** can run the code.
 - We can identify a process by its Process ID (**PID**), not with it's executable file.
-- If a process is destroyed, another proc1365ess can reuse its **PID**.
+- If a process is destroyed, another process can reuse its **PID**.
 - Every process has an **integrity** level which defines what the process is able to do. 
 ##### Integrity level
 - **Low integrity:**
@@ -55,4 +55,8 @@ lo: LO-01, LO-02, LO-03
 	- Signer: Antimalware (3)
 	- Protection: Protected-Light (1)
 	- Purpose: Secure antivirus/antimalware software from tampering.
+##### Mitigation policies
+- **Protection mitigation policies** are security mechanisms implemented in Windows **to reduce the attack surface** and **protect against exploitation techniques**. We will see some examples below.
+- **Data Execution Prevention (DEP)**: Prevents code execution from non-executable memory region (stack, heap). Block buffer overflow exploit.
+- Adress Space Layout Randomisation (ASLR): 
 ## References
