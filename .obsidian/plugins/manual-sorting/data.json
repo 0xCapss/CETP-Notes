@@ -134,9 +134,9 @@
     },
     "assets": {
       "children": [
-        "assets/3-Windows internals- Virtual memory.png",
-        "assets/2-Windows Internals - Tokens.png",
-        "assets/1-Windows internals-Handle properties.png"
+        "assets/3-Windows-internals-Virtual-memory.png",
+        "assets/2-Windows-Internals-Tokens.png",
+        "assets/1-Windows-internals-Handle-properties.png"
       ],
       "sortOrder": "custom"
     }
