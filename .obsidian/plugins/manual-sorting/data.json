@@ -2,6 +2,9 @@
   "customOrder": {
     "/": {
       "children": [
+        "2-Windows Internals-Token.png",
+        "Screenshots",
+        "1-Windows-Internals-Tables of handles.png",
         "01-Windows-Internals",
         "02-EDR-Internals",
         "03-Static-Detection-Bypass",
@@ -129,6 +132,10 @@
       "children": [
         "17-Anti-Analysis/Anti-Analysis.md"
       ],
+      "sortOrder": "custom"
+    },
+    "Screenshots": {
+      "children": [],
       "sortOrder": "custom"
     }
   },

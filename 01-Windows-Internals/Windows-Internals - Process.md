@@ -87,6 +87,14 @@ lo: LO-01, LO-02, LO-03
 - **Thread call stacks:** list of function calls that show the path the program took to reach the current point of execution.
 #### Table of Handles
 - Kernel can expose different types of objects (directory, files, ...) for use by user mode process accessed through Handles.
+- Every process has a private handle table to kernel objects.
+- Each handle can be define with a **unique value, a type, a name and the access mask.**
+![[1-Windows-Internals-Tables of handles.png]]
+#### Token
+- The access token stores **the default security context** of process:
+	- **User account and groups** the process belongs to. It defines what resources it can access based on its memberships and restrictions.
+	- **Privileges** granted to the process, indicating what action the process can perform.
+![[2-Windows Internals-Token.png]]
 
 ## References
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/overview-of-threat-mitigations-in-windows-10
