@@ -69,7 +69,7 @@ lo: LO-01, LO-02, LO-03
 	- **Main Thread**: Execute the main function.
 	- **Threads create by code** (ex: *CreateThread*): Executes specific functions or tasks defined by the programmer, running concurrently with the main thread and other threads.
 	- **Worker Thread**: perform cleanups, resource management, ...
-- **State**:
+- **3 States**:
 	- **Waiting**: The thread is paused, waiting an event or condition before it continue execution.
 	- **Ready**: The thread is prepared to execute but it's waiting for processor availability.
 	- **Running:** The thread is running code on a processor.
@@ -83,7 +83,10 @@ lo: LO-01, LO-02, LO-03
 		- Grows dynamically as needed.
 	- **Kernel mode stack**:
 		- Resides in kernel stack.
-		- 
+		- Smaller and fixed-size (12kB on 32-bit system, 24kB on 64-bit system)
+- **Thread call stacks:** list of function calls that show the path the program took to reach the current point of execution.
+#### Table of Handles
+- Kernel can expose different types of objects (directory, files, ...) for use by user mode process accessed through Handles.
 
 ## References
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/overview-of-threat-mitigations-in-windows-10
