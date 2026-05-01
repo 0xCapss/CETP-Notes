@@ -61,5 +61,21 @@ lo: LO-01, LO-02, LO-03
 - **Control Flow Guard (CFG):** Prevent memory corruption exploits.
 - **Signature restricted**: Allow only Microsoft-signed code to execute.
 - **Image Restricted**: Blocks loading executables/DLLs from network share (SMB, WebDav).
+
+### User-mode Presentation - Process Components
+#### Threads
+- Executes codes allowing concurrent execution of tasks.
+- It exists **3 different types** :
+	- **Main Thread**: Execute the main function.
+	- **Threads create by code** (ex: *CreateThread*): Executes specific functions or tasks defined by the programmer, running concurrently with the main thread and other threads.
+	- **Worker Thread**: perform cleanups, resource management, ...
+- **State**:
+	- **Waiting**: The thread is paused, waiting an event or condition before it continue execution.
+	- **Ready**: The thread is prepared to execute but it's waiting for processor availability.
+	- **Running:** The thread is running code on a processor.
+- **Access mode**:
+	- **User mode:** The thread operates with **limited privileges**, interacting with user-space memory and executing user code. 
+
 ## References
-https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/overview-of-threat-mitigations-in-windows-10
+- https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/overview-of-threat-mitigations-in-windows-10
+- https://learn.microsoft.com/en-us/windows/win32/api/_processthreadsapi/
