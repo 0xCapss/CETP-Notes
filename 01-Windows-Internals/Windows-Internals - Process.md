@@ -89,12 +89,12 @@ lo: LO-01, LO-02, LO-03
 - Kernel can expose different types of objects (directory, files, ...) for use by user mode process accessed through Handles.
 - Every process has a private handle table to kernel objects.
 - Each handle can be define with a **unique value, a type, a name and the access mask.**
-![Tables of handles](1-Windows-internals-Handle-properties.png)
+![Tables of handles](../assets/1-Windows-internals-Handle-properties.png)
 #### Token
 - The access token stores **the default security context** of process:
 	- **User account and groups** the process belongs to. It defines what resources it can access based on its memberships and restrictions.
 	- **Privileges** granted to the process, indicating what action the process can perform.
-![Token](2-Windows-Internals-Tokens.png)
+![Token](../assets/2-Windows-Internals-Tokens.png)
 
 #### Virtual memory
 - Virtual memory address in x64 user is 128TB relative to each process starting from **0x00000000 00000000 to 0x0007FFF FFFFFFFF.**
@@ -107,7 +107,7 @@ lo: LO-01, LO-02, LO-03
 	- Allocated Pages
 	- Executable File image
 	- Modules
-![Virtual memory](3-Windows-internals-Virtual-memory.png)
+![Virtual memory](../assets/3-Windows-internals-Virtual-memory.png)
 
 - Virtual memory pages can have **3 states:**
 	- **Free**: Pages are not allocated.
