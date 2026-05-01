@@ -74,7 +74,16 @@ lo: LO-01, LO-02, LO-03
 	- **Ready**: The thread is prepared to execute but it's waiting for processor availability.
 	- **Running:** The thread is running code on a processor.
 - **Access mode**:
-	- **User mode:** The thread operates with **limited privileges**, interacting with user-space memory and executing user code. 
+	- **User mode:** The thread operates with **limited privileges**, interacting with user-space memory and executing user code. It uses the **user mode stack.**
+	- **Kernel mode**: The thread operate with **elevated privileges**, allowing direct interaction with hardware and system resources. When a thread switch between this 2 modes (during a syscall for example), it begins to use the **kernel mode stack.**
+- **Thread stacks**:
+	- **User mode stack**: 
+		- Resides in the process's user space. 
+		- Used for local variable, function parameters, and return address during execution.
+		- Grows dynamically as needed.
+	- **Kernel mode stack**:
+		- Resides in kernel stack.
+		- 
 
 ## References
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/overview-of-threat-mitigations-in-windows-10
