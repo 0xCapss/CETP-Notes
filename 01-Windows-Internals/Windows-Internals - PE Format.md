@@ -14,8 +14,4 @@ lo: LO-01, LO-02, LO-03
 
 ### PE Format
 
-### Windows Architecture
-
-### Execution Flow
-
 ## References

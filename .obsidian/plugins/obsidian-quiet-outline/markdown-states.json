@@ -105,15 +105,15 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process.md": {
-    "scroll": 96.45758101851852,
+    "scroll": 214.41909036949102,
     "cursor": {
       "from": {
-        "line": 116,
-        "ch": 53
+        "line": 240,
+        "ch": 26
       },
       "to": {
-        "line": 116,
-        "ch": 53
+        "line": 240,
+        "ch": 26
       }
     },
     "expandedKeys": []
@@ -133,14 +133,14 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - PE Format.md": {
-    "scroll": 1.5916955017301038,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 21,
+        "line": 15,
         "ch": 0
       },
       "to": {
-        "line": 21,
+        "line": 15,
         "ch": 0
       }
     },
@@ -164,12 +164,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 53
+        "line": 13,
+        "ch": 0
       },
       "to": {
-        "line": 10,
-        "ch": 53
+        "line": 13,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -206,11 +206,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
+        "line": 13,
         "ch": 0
       },
       "to": {
-        "line": 10,
+        "line": 13,
         "ch": 0
       }
     },
