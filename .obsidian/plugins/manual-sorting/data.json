@@ -29,6 +29,9 @@
     "01-Windows-Internals": {
       "children": [
         "01-Windows-Internals/Windows-Internals - Process.md",
+        "01-Windows-Internals/1-Windows-Internals-Tables of handles.png",
+        "01-Windows-Internals/2-Windows Internals-Token.png",
+        "01-Windows-Internals/3-WIndows Internals-Virtual memory.png",
         "01-Windows-Internals/Windows-Internals - PE Format.md",
         "01-Windows-Internals/Windows-Internals - Windows Architecture.md",
         "01-Windows-Internals/Windows-Internals - Execution flow.md",
@@ -133,11 +136,7 @@
       "sortOrder": "custom"
     },
     "Screenshots": {
-      "children": [
-        "Screenshots/1-Windows-Internals-Tables of handles.png",
-        "Screenshots/2-Windows Internals-Token.png",
-        "Screenshots/3-WIndows Internals-Virtual memory.png"
-      ],
+      "children": [],
       "sortOrder": "custom"
     }
   },

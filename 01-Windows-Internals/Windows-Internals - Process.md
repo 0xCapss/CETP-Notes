@@ -233,16 +233,5 @@ lo: LO-01, LO-02, LO-03
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/overview-of-threat-mitigations-in-windows-10
 - https://learn.microsoft.com/en-us/windows/win32/api/_processthreadsapi/
 - https://medium.com/@derakhshanfar.hossein/all-you-need-to-know-about-virtual-memory-page-tables-page-faults-for-backend-engineers-0fdb4b6d1565
-**: Pages from executable files (EXE, dll, ...)
-- Virtual Memory Pages by **protection**:
-	- R --> Read
-	- RW --> Read and Write
-	- X --> Execute
-	- RX --> Read and Execute
-	- RWX --> Read, Write, and Execute
-	- No Access --> **Any access attempt** (read, write, execute) triggers an `STATUS_ACCESS_VIOLATION`
-	- Guard --> This is a **modifier flag** (combined with another protection, e.g. `PAGE_READWRITE | PAGE_GUARD`)
-## References
-- https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/overview-of-threat-mitigations-in-windows-10
-- https://learn.microsoft.com/en-us/windows/win32/api/_processthreadsapi/
-- https://medium.com/@derakhshanfar.hossein/all-you-need-to-know-about-virtual-memory-page-tables-page-faults-for-backend-engineers-0fdb4b6d1565
+- https://learn.microsoft.com/en-us/windows/win32/procthread/processes-and-threads
+- https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc
