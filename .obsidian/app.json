@@ -1,4 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Screenshots"
+  "attachmentFolderPath": "assets",
+  "promptDelete": false,
+  "useMarkdownLinks": true
 }

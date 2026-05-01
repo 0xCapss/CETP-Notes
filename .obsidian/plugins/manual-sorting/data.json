@@ -2,7 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
-        "Screenshots",
+        "assets",
         "01-Windows-Internals",
         "02-EDR-Internals",
         "03-Static-Detection-Bypass",
@@ -132,11 +132,11 @@
       ],
       "sortOrder": "custom"
     },
-    "Screenshots": {
+    "assets": {
       "children": [
-        "Screenshots/1-Windows-Internals-Tables of handles.png",
-        "Screenshots/2-Windows Internals-Token.png",
-        "Screenshots/3-WIndows Internals-Virtual memory.png"
+        "assets/3-Windows internals- Virtual memory.png",
+        "assets/2-Windows Internals - Tokens.png",
+        "assets/1-Windows internals-Handle properties.png"
       ],
       "sortOrder": "custom"
     }

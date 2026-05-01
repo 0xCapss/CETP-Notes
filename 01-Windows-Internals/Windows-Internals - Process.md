@@ -94,7 +94,6 @@ lo: LO-01, LO-02, LO-03
 - The access token stores **the default security context** of process:
 	- **User account and groups** the process belongs to. It defines what resources it can access based on its memberships and restrictions.
 	- **Privileges** granted to the process, indicating what action the process can perform.
-![[2-Windows Internals-Token.png]]
 #### Virtual memory
 - Virtual memory address in x64 user is 128TB relative to each process starting from **0x00000000 00000000 to 0x0007FFF FFFFFFFF.**
 - Virtual memory pages by order:
@@ -106,7 +105,7 @@ lo: LO-01, LO-02, LO-03
 	- Allocated Pages
 	- Executable File image
 	- Modules
-![[3-WIndows Internals-Virtual memory.png]]
+
 - Virtual memory pages can have **3 states:**
 	- **Free**: Pages are not allocated.
 	- **Commited**: All allocated pages.
@@ -115,8 +114,6 @@ lo: LO-01, LO-02, LO-03
 	- **Mapped**: Pages associated with files on disk.
 	- **Private**: Pages exclusive to a process.
 	- **# Module I - Windows Internals - Process
-
-## Key Concepts
 
 ### User-mode Presentation - Process Properties
 #### General information
@@ -195,12 +192,13 @@ lo: LO-01, LO-02, LO-03
 - Kernel can expose different types of objects (directory, files, ...) for use by user mode process accessed through Handles.
 - Every process has a private handle table to kernel objects.
 - Each handle can be define with a **unique value, a type, a name and the access mask.**
-![01-Windows-Internals-Tables of handles.png](/Screenshots/1-Windows-Internals-Tables of handles)]
+![](1-Windows%20internals-Handle%20properties.png)
 #### Token
 - The access token stores **the default security context** of process:
 	- **User account and groups** the process belongs to. It defines what resources it can access based on its memberships and restrictions.
 	- **Privileges** granted to the process, indicating what action the process can perform.
-![[2-Windows Internals-Token.png]]
+![](2-Windows%20Internals%20-%20Tokens.png)
+
 #### Virtual memory
 - Virtual memory address in x64 user is 128TB relative to each process starting from **0x00000000 00000000 to 0x0007FFF FFFFFFFF.**
 - Virtual memory pages by order:
@@ -212,7 +210,8 @@ lo: LO-01, LO-02, LO-03
 	- Allocated Pages
 	- Executable File image
 	- Modules
-![[3-WIndows Internals-Virtual memory.png]]
+![](3-Windows%20internals-%20Virtual%20memory.png)
+
 - Virtual memory pages can have **3 states:**
 	- **Free**: Pages are not allocated.
 	- **Commited**: All allocated pages.
