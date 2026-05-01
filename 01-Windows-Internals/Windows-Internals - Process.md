@@ -95,7 +95,26 @@ lo: LO-01, LO-02, LO-03
 	- **User account and groups** the process belongs to. It defines what resources it can access based on its memberships and restrictions.
 	- **Privileges** granted to the process, indicating what action the process can perform.
 ![[2-Windows Internals-Token.png]]
-
+#### Virtual memory
+- Virtual memory address in x64 user is 128TB relative to each process starting from **0x00000000 00000000 to 0x0007FFF FFFFFFFF.**
+- Virtual memory pages by order:
+	- USER_SHARED_DATA
+	- PEB(Process Environment Block)
+	- Stacks
+	- Heap
+	- NLS & MUI Files
+	- Allocated Pages
+	- Executable File image
+	- Modules
+![[3-WIndows Internals-Virtual memory.png]]
+- Virtual memory pages can have **3 states:**
+	- **Free**: Pages are not allocated.
+	- **Commited**: All allocated pages.
+	- **Reserved**: Pages with reserved address spaces for future use, not allocated yet.
+- Virtual memory pages can have **3 types:**
+	- Mapped: Pages associated with files on disk.
+	- Private: Pages exclusive to a process.
+	- Image: Pages from executable files (EXE, dll, ...)
 ## References
 - https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/overview-of-threat-mitigations-in-windows-10
 - https://learn.microsoft.com/en-us/windows/win32/api/_processthreadsapi/

@@ -2,9 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
-        "2-Windows Internals-Token.png",
         "Screenshots",
-        "1-Windows-Internals-Tables of handles.png",
         "01-Windows-Internals",
         "02-EDR-Internals",
         "03-Static-Detection-Bypass",
@@ -135,7 +133,11 @@
       "sortOrder": "custom"
     },
     "Screenshots": {
-      "children": [],
+      "children": [
+        "Screenshots/1-Windows-Internals-Tables of handles.png",
+        "Screenshots/2-Windows Internals-Token.png",
+        "Screenshots/3-WIndows Internals-Virtual memory.png"
+      ],
       "sortOrder": "custom"
     }
   },
