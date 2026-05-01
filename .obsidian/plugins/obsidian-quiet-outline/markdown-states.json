@@ -105,15 +105,15 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process.md": {
-    "scroll": 200.7754342431762,
+    "scroll": 175.28318858560795,
     "cursor": {
       "from": {
-        "line": 210,
-        "ch": 18
+        "line": 198,
+        "ch": 10
       },
       "to": {
-        "line": 210,
-        "ch": 18
+        "line": 198,
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -211,6 +211,20 @@
       },
       "to": {
         "line": 13,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Screenshots/1-Windows-Internals-Tables.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
