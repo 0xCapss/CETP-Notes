@@ -62,3 +62,5 @@ dt nt!_eprocess <EPROCESS_addr>
 ![](/assets/9-Windows-Internals-Tokens-Elevation-cmd.png)
 #### Token & EDR Downgrade
 ![](/assets/10-Windows-Internal-Token-Downgrade.png)
+![](/assets/11-Windows-Internal-Token-System.png)
+![](/assets/12-Windows-Internal-Token-User.png)
