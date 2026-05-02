@@ -43,3 +43,7 @@ dt nt!_eprocess <EPROCESS_addr>
 	- ObjectTable => Stores handles to kernel objects
 	- SectionBaseAddress
 	- ThreadListHead => Iterate the Threads.
+#### ActiveProcessLinks & Process Hiding
+- Double-linked list that list all the process in the OS together.
+![List of process](4-Windows%20Internal-List-process.png)
+- 
