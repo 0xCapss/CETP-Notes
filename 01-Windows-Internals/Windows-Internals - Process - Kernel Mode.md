@@ -25,4 +25,21 @@ lo: LO-01, LO-02, LO-03
 - *_EPROCESS* structure change across Windows versions.
 #### EPROCESS Overview
 - To get process’s EPROCESS address:
-``
+```cmd
+!process 0 0 explorer.exe
+```
+- To get process’s EPROCESS fields:
+```cmd
+dt nt!_eprocess <EPROCESS_addr>
+```
++ Interesting fields:
+	- UniqueProcessId(PID)
+	- ImageFileName => Process Comparaison
+	- Token => Privilege Escalation
+	* Protection => Bypass PPL
+	- ActiveProcessLinks => Enumerate processes
+	- InheritedFromUniqueProcessId (PPID) => Identify the parent
+	- Peb
+	- ObjectTable => Stores handles to kernel objects
+	- SectionBaseAddress
+	- ThreadListHead => Iterate the Threads.
