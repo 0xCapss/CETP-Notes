@@ -48,4 +48,4 @@ lo: LO-04, LO-05
 ## Links
 
 - [[CETP-Index]]
-- [[Windows-Internals - Process]]
+- [[Windows-Internals - Process - User Mode]]

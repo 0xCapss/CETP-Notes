@@ -28,7 +28,8 @@
     },
     "01-Windows-Internals": {
       "children": [
-        "01-Windows-Internals/Windows-Internals - Process.md",
+        "01-Windows-Internals/Windows-Internals - Process - User Mode.md",
+        "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md",
         "01-Windows-Internals/Windows-Internals - PE Format.md",
         "01-Windows-Internals/Windows-Internals - Windows Architecture.md",
         "01-Windows-Internals/Windows-Internals - Execution flow.md",

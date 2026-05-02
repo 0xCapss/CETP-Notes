@@ -105,7 +105,7 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process.md": {
-    "scroll": 111.98104265402844,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 133,
@@ -225,6 +225,34 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "01-Windows-Internals/Windows-Internals - Process - User Mode.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 63,
+        "ch": 0
+      },
+      "to": {
+        "line": 63,
         "ch": 0
       }
     },

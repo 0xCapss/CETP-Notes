@@ -8,7 +8,7 @@ tags:
 status: todo
 lo: LO-01, LO-02, LO-03
 ---
-# Module I - Windows Internals - Process
+# Module I - Windows Internals - Process - User Mode
 
 ## Key Concepts
 
@@ -130,4 +130,4 @@ lo: LO-01, LO-02, LO-03
 - https://learn.microsoft.com/en-us/windows/win32/api/_processthreadsapi/
 - https://medium.com/@derakhshanfar.hossein/all-you-need-to-know-about-virtual-memory-page-tables-page-faults-for-backend-engineers-0fdb4b6d1565
 - https://learn.microsoft.com/en-us/windows/win32/procthread/processes-and-threads
-- [ ] https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc
+- https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc
