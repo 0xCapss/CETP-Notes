@@ -135,6 +135,7 @@
     },
     "assets": {
       "children": [
+        "assets/10-Windows-Internal-Token-Downgrade.png",
         "assets/9-Windows-Internals-Tokens-Elevation-cmd.png",
         "assets/8-Windows-Internals-Tokens-Elevation.png",
         "assets/7-Windows-Internals-Tokens.png",

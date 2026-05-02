@@ -231,21 +231,21 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md": {
-    "scroll": 55.353868720205355,
+    "scroll": 60.665223798121204,
     "cursor": {
       "from": {
-        "line": 61,
-        "ch": 49
+        "line": 63,
+        "ch": 12
       },
       "to": {
-        "line": 61,
-        "ch": 49
+        "line": 63,
+        "ch": 12
       }
     },
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - User Mode.md": {
-    "scroll": 0,
+    "scroll": 90.84063981042654,
     "cursor": {
       "from": {
         "line": 14,

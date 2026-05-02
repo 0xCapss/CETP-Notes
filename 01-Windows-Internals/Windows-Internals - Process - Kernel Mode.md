@@ -45,18 +45,20 @@ dt nt!_eprocess <EPROCESS_addr>
 	- ThreadListHead => Iterate the Threads.
 #### ActiveProcessLinks & Process Hiding
 - Double-linked list that list all the process in the OS together.
-![List of process](4-Windows-Internal-List-process.png)
+![List of process](/assets/4-Windows-Internal-List-process.png)
 - Each process has its own **ActiveProcessLinks** that contains **Flink** and **Blink**.
 - Flink is pointing on the **ActiveProcessLinks** of the **next process**.
 - Blink is pointing on the **ActiveProcessLinks** of the **previous process**.
-**![ActiveProcessLinks](5-Windows-internals-ActiveProcessLinks.png)
+**![ActiveProcessLinks](/assets/5-Windows-internals-ActiveProcessLinks.png)
 - To hide cmd process, we have to unlink its **ActiveProcessLinks** from that chain by making its previous process **ActiveProcessLinks**’s Flink pointing to the **cmd next process ActiveProcessLinks.**
 - the cmd next process ActiveProcessLinks’s Blink pointing to the cmd previous process’s ActiveProcessLinks.
-![Hide cmd](6-Windows-Internals-Hide-cmd.png)
+![Hide cmd](/assets/6-Windows-Internals-Hide-cmd.png)
 #### Token
 - Describes process's security context, of type _EX_FAST_REF.
 - The value field holds the token's value.
-![](7-Windows-Internals-Tokens.png)
+![](/assets/7-Windows-Internals-Tokens.png)
 #### Token & Privilege Escalation
-![](8-Windows-Internals-Tokens-Elevation.png)
-![](9-Windows-Internals-Tokens-Elevation-cmd.png)
+![](/assets/8-Windows-Internals-Tokens-Elevation.png)
+![](/assets/9-Windows-Internals-Tokens-Elevation-cmd.png)
+#### Token & EDR Downgrade
+![](/assets/10-Windows-Internal-Token-Downgrade.png)
