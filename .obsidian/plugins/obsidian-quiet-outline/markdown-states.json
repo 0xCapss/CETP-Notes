@@ -234,12 +234,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 20,
+        "ch": 32
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 20,
+        "ch": 32
       }
     },
     "expandedKeys": []
@@ -248,12 +248,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 63,
-        "ch": 0
+        "line": 14,
+        "ch": 11
       },
       "to": {
-        "line": 63,
-        "ch": 0
+        "line": 14,
+        "ch": 11
       }
     },
     "expandedKeys": []
