@@ -45,6 +45,12 @@ dt nt!_eprocess <EPROCESS_addr>
 	- ThreadListHead => Iterate the Threads.
 #### ActiveProcessLinks & Process Hiding
 - Double-linked list that list all the process in the OS together.
+```WinDbg
+# Lister tous les processus via ActiveProcessLinks
+!process 0 0
+dt nt!_LIST_ENTRY <EPROCESS_addr>+<offset_ActiveProcessLinks>
+```
+
 ![List of process](/assets/4-Windows-Internal-List-process.png)
 - Each process has its own **ActiveProcessLinks** that contains **Flink** and **Blink**.
 - Flink is pointing on the **ActiveProcessLinks** of the **next process**.
@@ -56,6 +62,11 @@ dt nt!_eprocess <EPROCESS_addr>
 #### Token
 - Describes process's security context, of type _EX_FAST_REF.
 - The value field holds the token's value.
+```WinDbg
+# Inspecter le token d'un processus
+dt nt!_EX_FAST_REF <token_addr>
+!token <token_addr>
+```
 ![](/assets/7-Windows-Internals-Tokens.png)
 #### Token & Privilege Escalation
 ![](/assets/8-Windows-Internals-Tokens-Elevation.png)
