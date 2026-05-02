@@ -135,6 +135,7 @@
     },
     "assets": {
       "children": [
+        "assets/7-Windows-Internals-Tokens.png",
         "assets/6-Windows-Internals-Hide-cmd.png",
         "assets/5-Windows-internals-ActiveProcessLinks.png",
         "assets/4-Windows-Internal-List-process.png",

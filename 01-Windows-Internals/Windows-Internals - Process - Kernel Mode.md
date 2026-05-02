@@ -54,3 +54,6 @@ dt nt!_eprocess <EPROCESS_addr>
 - the cmd next process ActiveProcessLinks’s Blink pointing to the cmd previous process’s ActiveProcessLinks.
 ![Hide cmd](6-Windows-Internals-Hide-cmd.png)
 #### Token
+- Describes process's security context, of type _EX_FAST_REF.
+- The value field holds the token's value.
+![](7-Windows-Internals-Tokens.png)
