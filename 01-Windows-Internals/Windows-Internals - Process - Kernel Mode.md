@@ -1,15 +1,12 @@
-
-tags:
-  - cetp
-  - windows-internals
-  - kernel-mode
-status: in-progress
-lo: LO-01, LO-02, LO-03
-
-
 # Module I. Windows Internals. Process. Kernel Mode
 
 ## Key Concepts
+
+- [ ] Understand the role of the kernel and its address space boundaries.
+- [ ]  Identify the key fields of `_EPROCESS` and their offensive relevance.
+- [ ]  Explain how `ActiveProcessLinks` works and how DKOM abuses it to hide processes.
+- [ ]  Describe the token structure and how token stealing enables privilege escalation.
+- [ ]  Understand how modifying the Protection field of `_EPROCESS` enables PPL bypass.
 
 ### General
 
@@ -18,9 +15,6 @@ lo: LO-01, LO-02, LO-03
 **System Address Space** : 128 TB, from `0xFFFF8000 00000000` to `0xFFFFFFFF FFFFFFFF`.
 
 The kernel tracks the state of every process using the `_EPROCESS` structure. `_EPROCESS` is an **opaque kernel structure**, meaning its layout changes across Windows versions. Rootkits that rely on hardcoded offsets break between builds. Modern tools use pattern scanning to find offsets dynamically.
-
-
-
 ### _EPROCESS Overview
 
 `_EPROCESS` is the kernel's internal representation of a process. Every running process has one associated structure in kernel memory.
