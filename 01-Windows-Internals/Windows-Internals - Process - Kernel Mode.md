@@ -45,5 +45,12 @@ dt nt!_eprocess <EPROCESS_addr>
 	- ThreadListHead => Iterate the Threads.
 #### ActiveProcessLinks & Process Hiding
 - Double-linked list that list all the process in the OS together.
-![List of process](4-Windows%20Internal-List-process.png)
-- 
+![List of process](4-Windows-Internal-List-process.png)
+- Each process has its own **ActiveProcessLinks** that contains **Flink** and **Blink**.
+- Flink is pointing on the **ActiveProcessLinks** of the **next process**.
+- Blink is pointing on the **ActiveProcessLinks** of the **previous process**.
+**![ActiveProcessLinks](5-Windows-internals-ActiveProcessLinks.png)
+- To hide cmd process, we have to unlink its **ActiveProcessLinks** from that chain by making its previous process **ActiveProcessLinks**’s Flink pointing to the **cmd next process ActiveProcessLinks.**
+- the cmd next process ActiveProcessLinks’s Blink pointing to the cmd previous process’s ActiveProcessLinks.
+![Hide cmd](6-Windows-Internals-Hide-cmd.png)
+#### Token

@@ -135,7 +135,9 @@
     },
     "assets": {
       "children": [
-        "assets/4-Windows Internal-List-process.png",
+        "assets/6-Windows-Internals-Hide-cmd.png",
+        "assets/5-Windows-internals-ActiveProcessLinks.png",
+        "assets/4-Windows-Internal-List-process.png",
         "assets/3-Windows-internals-Virtual-memory.png",
         "assets/2-Windows-Internals-Tokens.png",
         "assets/1-Windows-internals-Handle-properties.png"
