@@ -57,3 +57,6 @@ dt nt!_eprocess <EPROCESS_addr>
 - Describes process's security context, of type _EX_FAST_REF.
 - The value field holds the token's value.
 ![](7-Windows-Internals-Tokens.png)
+#### Token & Privilege Escalation
+![](8-Windows-Internals-Tokens-Elevation.png)
+![](9-Windows-Internals-Tokens-Elevation-cmd.png)
