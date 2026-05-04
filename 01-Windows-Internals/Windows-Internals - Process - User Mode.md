@@ -78,7 +78,7 @@ Mitigation policies are security mechanisms implemented in Windows to reduce the
 
 **Image Restricted** blocks loading executables or DLLs from network shares such as SMB or WebDAV.
 
-aa
+
 ---
 ### Threads
 
