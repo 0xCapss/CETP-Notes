@@ -113,11 +113,11 @@ This is the technique used by tools like `PPLKiller` to open a handle to `lsass.
 
 ### Protection and LSASS Dump
 The Process Protection Level resides in the Kernel as 1 byte value, it's part of the EPROCESS stuctrure under the the protection field. It's a combinaison of 8 bits (Type, Audit, Signer).
-![LSASS Protection](13-Windows-Internal-LSASS-Protection.png)
+![/assets/LSASS Protection](13-Windows-Internal-LSASS-Protection.png)
 
-![LSASS Service](14-Windows-Internals-LSASS-Services.png)
+![/assets/LSASS Service](14-Windows-Internals-LSASS-Services.png)
 
-![LSASS Error](15-Windows-Internals-LSASS-Error.png)
+![/assets/LSASS Error](15-Windows-Internals-LSASS-Error.png)
 ## Offensive Relevance
 
 | Technique             | EPROCESS Field                 | Impact                                              |
