@@ -113,11 +113,11 @@ This is the technique used by tools like `PPLKiller` to open a handle to `lsass.
 
 ### Protection and LSASS Dump
 The Process Protection Level resides in the Kernel as 1 byte value, it's part of the EPROCESS stuctrure under the the protection field. It's a combinaison of 8 bits (Type, Audit, Signer).
-![/assets/LSASS Protection](13-Windows-Internal-LSASS-Protection.png)
+![LSASS Protection](../assets/13-Windows-Internal-LSASS-Protection.png)
 
-![/assets/LSASS Service](14-Windows-Internals-LSASS-Services.png)
+![LSASS Service](../assets/14-Windows-Internals-LSASS-Services.png)
 
-![/assets/LSASS Error](15-Windows-Internals-LSASS-Error.png)
+![LSASS Error](../assets/15-Windows-Internals-LSASS-Error.png)
 ## Offensive Relevance
 
 | Technique             | EPROCESS Field                 | Impact                                              |
@@ -128,13 +128,13 @@ The Process Protection Level resides in the Kernel as 1 byte value, it's part of
 | PPID spoofing         | `InheritedFromUniqueProcessId` | Fake a legitimate parent process                    |
 ## Detection & Mitigations
 
-| Technique | Detection | Tool / Event |
-|-----------|-----------|-------------|
-| DKOM | Cross-reference ActiveProcessLinks with open handles | Volatility3 `windows.psxview` |
-| Token stealing | Unusual token on a process | Event ID 4688, abnormal parent token |
-| Token stealing | API monitoring | EDR : `PsReferencePrimaryToken`, `SeAssignPrimaryToken` |
-| PPL bypass | Handle open on a protected process | EDR : `ObRegisterCallbacks` |
-| ETW | Process Notify Callbacks remain active even after DKOM | ETW : `PsSetCreateProcessNotifyRoutine` |
+| Technique      | Detection                                              | Tool / Event                                            |
+| -------------- | ------------------------------------------------------ | ------------------------------------------------------- |
+| DKOM           | Cross-reference ActiveProcessLinks with open handles   | Volatility3 `windows.psxview`                           |
+| Token stealing | Unusual token on a process                             | Event ID 4688, abnormal parent token                    |
+| Token stealing | API monitoring                                         | EDR : `PsReferencePrimaryToken`, `SeAssignPrimaryToken` |
+| PPL bypass     | Handle open on a protected process                     | EDR : `ObRegisterCallbacks`                             |
+| ETW            | Process Notify Callbacks remain active even after DKOM | ETW : `PsSetCreateProcessNotifyRoutine`                 |
 
 
 ## References
