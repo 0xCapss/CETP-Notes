@@ -119,6 +119,13 @@ The Process Protection Level resides in the Kernel as 1 byte value, it's part of
 ![LSASS Service](../assets/14-Windows-Internals-LSASS-Services.png)
 
 ![LSASS Error](../assets/15-Windows-Internals-LSASS-Error.png)
+
+Let's modify now the attribute of protection:
+![LSASS Modify Protection](../assets/16-Windows-Internals-LSASS-Modify-Protection.png)
+
+LSA Light protection is removed from LSASS, now we can debug LSASS and dump its memory:
+
+![LSASS Dump](../assets/17-Windows-Internals-LSASS-Dump-Memory.png)
 ## Offensive Relevance
 
 | Technique             | EPROCESS Field                 | Impact                                              |

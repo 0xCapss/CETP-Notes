@@ -135,6 +135,8 @@
     },
     "assets": {
       "children": [
+        "assets/17-Windows-Internals-LSASS-Dump-Memory.png",
+        "assets/16-Windows-Internals-LSASS-Modify-Protection.png",
         "assets/15-Windows-Internals-LSASS-Error.png",
         "assets/14-Windows-Internals-LSASS-Services.png",
         "assets/13-Windows-Internal-LSASS-Protection.png",
