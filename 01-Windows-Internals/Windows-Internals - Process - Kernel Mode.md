@@ -111,8 +111,13 @@ This is the technique used by tools like `PPLKiller` to open a handle to `lsass.
 
 > **Kernel Patch Guard** : KPG periodically verifies the integrity of certain kernel structures. Modifying `_EPROCESS` on a KPG-enabled system can trigger a BSOD. That said, `ActiveProcessLinks` and the `Token` field are not always monitored, which is why DKOM and token stealing still work on some configurations.
 
+### Protection and LSASS Dump
+The Process Protection Level resides in the Kernel as 1 byte value, it's part of the EPROCESS stuctrure under the the protection field. It's a combinaison of 8 bits (Type, Audit, Signer).
+![LSASS Protection](13-Windows-Internal-LSASS-Protection.png)
 
+![LSASS Service](14-Windows-Internals-LSASS-Services.png)
 
+![LSASS Error](15-Windows-Internals-LSASS-Error.png)
 ## Offensive Relevance
 
 | Technique             | EPROCESS Field                 | Impact                                              |
@@ -130,7 +135,6 @@ This is the technique used by tools like `PPLKiller` to open a handle to `lsass.
 | Token stealing | API monitoring | EDR : `PsReferencePrimaryToken`, `SeAssignPrimaryToken` |
 | PPL bypass | Handle open on a protected process | EDR : `ObRegisterCallbacks` |
 | ETW | Process Notify Callbacks remain active even after DKOM | ETW : `PsSetCreateProcessNotifyRoutine` |
-
 
 
 ## References
