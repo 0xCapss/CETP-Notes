@@ -133,7 +133,7 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - PE Format.md": {
-    "scroll": 47.221354166666664,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 21,
@@ -161,15 +161,15 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Windows Architecture.md": {
-    "scroll": 0,
+    "scroll": 10.224203821656051,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 21,
+        "ch": 246
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 21,
+        "ch": 246
       }
     },
     "expandedKeys": []
@@ -189,7 +189,7 @@
     "expandedKeys": []
   },
   "02-EDR-Internals/EDR-Internals.md": {
-    "scroll": 0,
+    "scroll": 18.860026041666668,
     "cursor": {
       "from": {
         "line": 50,
@@ -231,7 +231,7 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md": {
-    "scroll": 111.90805566255779,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 124,
@@ -245,7 +245,7 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - User Mode.md": {
-    "scroll": 118.26611328125,
+    "scroll": 120.9330390265618,
     "cursor": {
       "from": {
         "line": 79,
