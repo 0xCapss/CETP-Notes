@@ -34,6 +34,12 @@ The diagram shows a simplified structure of a PE file. Every header is defined a
 	- **Magic** field tells whether an executable image is 32-bit or 64-bit.
 	- **AddressOfEntryPoint** holds the RVA (offset of the entry point) of the Entry Point.
 	- **SizeOfImage** indicates size of the PE file when it is loaded into the memory.
-	- The last member of the Optional Header is the Data Directory which is an array 
+- The last member of the **Optional Header** is the **Data Directory** which is an array of ``IMAGE_DATA_DIRECTORY`` structures each of them represents something: 
+	- **Export Directory** at **index 0** representing the functions and variable that are exported from the executable.
+	- **Import Directory** at **index 1** representing the addresses of functions imported from other executable files.
+#### Section headers
+- Array of `IMAGE_SECTION_HEADER` structures and contains information related to the various sections available in the image of an executable file.
+		- **SizeOfRawData** indicates size of a section in the file. 
+		- 
 
 ## References
