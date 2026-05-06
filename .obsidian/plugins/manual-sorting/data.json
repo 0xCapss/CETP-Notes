@@ -3,6 +3,7 @@
     "/": {
       "children": [
         "assets",
+        "00-Lab",
         "01-Windows-Internals",
         "02-EDR-Internals",
         "03-Static-Detection-Bypass",
@@ -20,10 +21,40 @@
         "15-Sysmon-Attacks",
         "16-UAC-Bypass",
         "17-Anti-Analysis",
-        "Lab",
         "CETP-Index.md",
         "LICENSE",
         "README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "00-Lab": {
+      "children": [
+        "00-Lab/Learning objective 1.md",
+        "00-Lab/Learning objective 2.md",
+        "00-Lab/Learning objective 3.md",
+        "00-Lab/Learning objective 4.md",
+        "00-Lab/Learning objective 5.md",
+        "00-Lab/Learning objective 6.md",
+        "00-Lab/Learning objective 7.md",
+        "00-Lab/Learning objective 8.md",
+        "00-Lab/Learning objective 9.md",
+        "00-Lab/Learning objective 10.md",
+        "00-Lab/Learning objective 11.md",
+        "00-Lab/Learning objective 12.md",
+        "00-Lab/Learning objective 13.md",
+        "00-Lab/Learning objective 14.md",
+        "00-Lab/Learning objective 15.md",
+        "00-Lab/Learning objective 16.md",
+        "00-Lab/Learning objective 17.md",
+        "00-Lab/Learning objective 18.md",
+        "00-Lab/Learning objective 19.md",
+        "00-Lab/Learning objective 20.md",
+        "00-Lab/Learning objective 21.md",
+        "00-Lab/Learning objective 22.md",
+        "00-Lab/Learning objective 23.md",
+        "00-Lab/Learning objective 24.md",
+        "00-Lab/Learning objective 25.md",
+        "00-Lab/Learning objective 26.md"
       ],
       "sortOrder": "custom"
     },
@@ -154,14 +185,6 @@
         "assets/3-Windows-internals-Virtual-memory.png",
         "assets/2-Windows-Internals-Tokens.png",
         "assets/1-Windows-internals-Handle-properties.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Lab": {
-      "children": [
-        "Lab/Learning objective.md",
-        "Lab/Learning objective 1 1.md",
-        "Lab/Learning objective 1.md"
       ],
       "sortOrder": "custom"
     }
