@@ -1,0 +1,4 @@
+- Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to change a cmd’s token to SYSTEM token.
+- Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to Hide the cmd process.
+- Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to change the notepad process protection level to PsProtectedSignerAntimalware-Light and remove the LSA protection from LSASS.
+- Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to hide a loaded driver.

@@ -329,15 +329,29 @@
     "expandedKeys": []
   },
   "00-Lab/Learning objective 1.md": {
+    "scroll": 2.6857865212925653,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 33
+      },
+      "to": {
+        "line": 6,
+        "ch": 33
+      }
+    },
+    "expandedKeys": []
+  },
+  "00-Lab/Learning objective 2.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 34
+        "line": 0,
+        "ch": 99
       },
       "to": {
-        "line": 4,
-        "ch": 34
+        "line": 0,
+        "ch": 99
       }
     },
     "expandedKeys": []
