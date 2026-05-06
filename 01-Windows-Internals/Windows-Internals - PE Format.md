@@ -39,7 +39,16 @@ The diagram shows a simplified structure of a PE file. Every header is defined a
 	- **Import Directory** at **index 1** representing the addresses of functions imported from other executable files.
 #### Section headers
 - Array of `IMAGE_SECTION_HEADER` structures and contains information related to the various sections available in the image of an executable file.
-		- **SizeOfRawData** indicates size of a section in the file. 
-		- 
-
+	- **SizeOfRawData** indicates size of a section in the file. 
+	- **VirtualSize** indicates size of a section in memory.
+	- **VirtualAddress** indicates the RVA of the section in memory.
+	- **Characteristics** the memory access rights for that section in memory (R, RW, RX, RWX).
+#### Sections
+- Contains the Code and Data use to create the executable.
+- They have a unique name:
+	- **.text:** 1st section, that contains the executable code, it’s marked as **RX**
+	- **.rdata**: contains read-only initialized data. (**R**)
+	- **.data**: contains initialized global and static variables that the program might modify during execution. (**RW**)
+	- **.reloc**: contains information about the address of relocation table (**R**).
+	- **.rsrc**: resource section contains things like images.
 ## References
