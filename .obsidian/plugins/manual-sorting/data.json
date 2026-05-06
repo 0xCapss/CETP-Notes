@@ -32,7 +32,6 @@
         "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md",
         "01-Windows-Internals/Windows-Internals - PE Format.md",
         "01-Windows-Internals/Windows-Internals - Windows Architecture.md",
-        "01-Windows-Internals/Windows-Internals - Execution flow.md",
         "01-Windows-Internals/Lab.md"
       ],
       "sortOrder": "custom"
@@ -135,6 +134,7 @@
     },
     "assets": {
       "children": [
+        "assets/2-Windows-Architecture-Execution-flow.png",
         "assets/1-Windows-Architecture.png",
         "assets/1-PE-Diagram.png",
         "assets/17-Windows-Internals-LSASS-Dump-Memory.png",

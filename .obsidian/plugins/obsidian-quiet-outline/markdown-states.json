@@ -161,14 +161,14 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Windows Architecture.md": {
-    "scroll": 40.7890625,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 68,
+        "line": 66,
         "ch": 0
       },
       "to": {
-        "line": 68,
+        "line": 66,
         "ch": 0
       }
     },
