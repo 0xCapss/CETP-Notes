@@ -29,6 +29,11 @@ The diagram shows a simplified structure of a PE file. Every header is defined a
 - Piece of code that runs “This program cannot be run in DOS mode” when the program is only compatible with DOS mode. This is not a PE header, but it's good to be aware of it.
 #### NT/PE Header
 - Starts with `50 45 00 00` which is `PE\0\0` in ASCII representing the PE signature.
-- The File Header contains some PE's properties like : architecture type of the computer.
+- The **File Heade**r contains some PE's properties like : architecture type of the computer, number of sections, ...
+- The **Optional Header** start just after the File Header, it contains information like:
+	- **Magic** field tells whether an executable image is 32-bit or 64-bit.
+	- **AddressOfEntryPoint** holds the RVA (offset of the entry point) of the Entry Point.
+	- **SizeOfImage** indicates size of the PE file when it is loaded into the memory.
+	- The last member of the Optional Header is the Data Directory which is an array 
 
 ## References
