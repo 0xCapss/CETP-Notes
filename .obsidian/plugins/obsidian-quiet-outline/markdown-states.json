@@ -231,14 +231,14 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md": {
-    "scroll": 119.29275173611111,
+    "scroll": 114.7265625,
     "cursor": {
       "from": {
-        "line": 149,
+        "line": 124,
         "ch": 0
       },
       "to": {
-        "line": 142,
+        "line": 124,
         "ch": 0
       }
     },
