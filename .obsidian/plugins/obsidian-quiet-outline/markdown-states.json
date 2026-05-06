@@ -333,11 +333,11 @@
     "cursor": {
       "from": {
         "line": 4,
-        "ch": 103
+        "ch": 34
       },
       "to": {
         "line": 4,
-        "ch": 103
+        "ch": 34
       }
     },
     "expandedKeys": []

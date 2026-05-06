@@ -165,6 +165,9 @@
     },
     "assets": {
       "children": [
+        "assets/L01-Inspect-the-heap.png",
+        "assets/L01-Inspect-RWX.png",
+        "assets/L01-Token.png",
         "assets/2-Windows-Architecture-Execution-flow.png",
         "assets/1-Windows-Architecture.png",
         "assets/1-PE-Diagram.png",
