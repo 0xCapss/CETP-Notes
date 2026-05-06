@@ -48,12 +48,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 48
+        "line": 24,
+        "ch": 17
       },
       "to": {
-        "line": 7,
-        "ch": 48
+        "line": 24,
+        "ch": 17
       }
     },
     "expandedKeys": [
@@ -253,6 +253,48 @@
       },
       "to": {
         "line": 79,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Lab/Learning objective.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Lab/Learning objective 1 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Lab/Learning objective 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },

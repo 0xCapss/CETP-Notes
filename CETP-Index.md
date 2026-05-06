@@ -21,7 +21,7 @@
 | XIV    | ASR Rules Bypass                   | ⬜ Todo | LO-24               |
 | XV     | Attack on Sysmon                   | ⬜ Todo | LO-25               |
 | XVI    | UAC Bypass                         | ⬜ Todo | LO-26               |
-| XVII   | Anti-Analysis                      | ⬜ Todo | —                   |
+| XVII   | Anti-Analysis                      | ⬜ Todo |                     |
 ## Exam Checklist
 
 - [ ] All 26 Learning Objectives completed

@@ -20,6 +20,7 @@
         "15-Sysmon-Attacks",
         "16-UAC-Bypass",
         "17-Anti-Analysis",
+        "Lab",
         "CETP-Index.md",
         "LICENSE",
         "README.md"
@@ -31,8 +32,7 @@
         "01-Windows-Internals/Windows-Internals - Process - User Mode.md",
         "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md",
         "01-Windows-Internals/Windows-Internals - PE Format.md",
-        "01-Windows-Internals/Windows-Internals - Windows Architecture.md",
-        "01-Windows-Internals/Lab.md"
+        "01-Windows-Internals/Windows-Internals - Windows Architecture.md"
       ],
       "sortOrder": "custom"
     },
@@ -154,6 +154,14 @@
         "assets/3-Windows-internals-Virtual-memory.png",
         "assets/2-Windows-Internals-Tokens.png",
         "assets/1-Windows-internals-Handle-properties.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Lab": {
+      "children": [
+        "Lab/Learning objective.md",
+        "Lab/Learning objective 1 1.md",
+        "Lab/Learning objective 1.md"
       ],
       "sortOrder": "custom"
     }
