@@ -8,16 +8,66 @@ tags:
 status: todo
 lo: LO-01, LO-02, LO-03
 ---
-# Module I - Windows-Internals - Windows Architecture
+---
+# Module I. Windows Internals. Windows Architecture
 
+## Learning Objectives
+
+- [ ] Explain the difference between user mode and kernel mode.
+- [ ] Describe the function call flow from a user process to the kernel.
+- [ ] Identify the role of each layer in the Windows architecture.
+- [ ] Understand why `ntdll.dll` is the transition point between the two modes.
+- [ ] Explain the offensive relevance of syscalls and the role of `ntoskrnl.exe`.
+
+---
 ## Key Concepts
+
 ### Windows Architecture
-A processor inside a machine running Windows can operate in 2 modes: **User mode** and **kernel mode**. Applications run in user mode and OS in kernel mode. When an application wants to accomplish a task, like create a file, it cannot do it on its own. The only entity that can complete the task is the kernel, so instead applications must follow a specific function call flow. The diagram below shows a high level of this flow.
 
-![](1-Windows%20Architecture.png)
+A processor running Windows can operate in two modes. **User mode** is where applications run with limited privileges. **Kernel mode** is where the operating system runs with full access to hardware and system resources.
 
-1. **User process**: A program/Application is executed by the user (Notepad, Word, ...)
-2. **Subsytem DLLs**: DLLs contain API function that are called by user process. An example can be `kernel32.dll`, exporting for example the *CreateFile* function from Windows API. Other common subsystem DLLs are `ntdll.dll`, `advapi32.dll`, and `user32.dll`.
-3. **Ntdll.dll**: A system-wide DLL which is the lowest layer available in user mode. This is a special DLL that creates the transition from user mode to kernel mode.
-4. **Executive kernel**: This is known as the **Windows Kernel.** It calls other drivers and module available with kernel mode to complete tasks.  The Windows kernel is partially stored in a file called `ntoskrnl.exe` under "C:\Windows\System32".
+When an application needs to perform a privileged task such as creating a file, it cannot do so directly. Only the kernel can complete such operations. Applications must therefore follow a specific function call flow to request services from the kernel.
+
+![Windows Architecture diagram](../assets/1-Windows-Architecture.png)
+
+---
+### The Function Call Flow
+
+The call flow from a user process to the kernel goes through four layers.
+
+**User process.** A program or application executed by the user, such as Notepad or Word, initiates the request by calling a Windows API function.
+
+**Subsystem DLLs.** These are DLLs that export API functions called by user processes. A common example is `kernel32.dll`, which exports functions like `CreateFile`. Other well-known subsystem DLLs include `ntdll.dll`, `advapi32.dll`, and `user32.dll`.
+
+**ntdll.dll.** This is a system-wide DLL and the lowest layer available in user mode. It is a special library responsible for transitioning from user mode to kernel mode. It does this by issuing a **syscall instruction**, which switches the processor to kernel mode and transfers execution to the kernel.
+
+**Executive kernel.** This is the Windows kernel itself. It receives the request from `ntdll.dll`, calls the appropriate drivers and modules available in kernel mode, and completes the task. The Windows kernel is partially stored in `ntoskrnl.exe`, located at `C:\Windows\System32\ntoskrnl.exe`.
+
+> **Offensive relevance.** EDRs hook functions inside `ntdll.dll` to intercept API calls before they reach the kernel. By calling syscalls directly, bypassing `ntdll.dll` entirely, an attacker can avoid these hooks. This technique is known as **direct syscalls** and is a core evasion method covered in the CETP.
+
+---
+## Offensive Relevance Summary
+
+|Concept|Technique|Goal|
+|---|---|---|
+|`ntdll.dll` hooks|Direct syscalls|Bypass EDR user-mode hooks|
+|`ntdll.dll` hooks|Indirect syscalls|Bypass EDR with cleaner call stack|
+|`ntoskrnl.exe`|Kernel exploits|Gain kernel-mode code execution|
+|Subsystem DLLs|IAT hooking|Intercept or redirect API calls|
+
+---
+## Detection and Mitigations
+
+|Technique|Detection|Tool or Event|
+|---|---|---|
+|Direct syscalls|Syscall instruction outside `ntdll.dll` address range|ETW, EDR behavioral analysis|
+|Indirect syscalls|Unusual call stack patterns|EDR call stack analysis|
+|`ntdll.dll` unhooking|`ntdll.dll` re-read from disk at runtime|EDR memory integrity checks|
+
+---
 ## References
+
+- [Microsoft, User mode and kernel mode](https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
+- [ired.team, Direct syscalls](https://www.ired.team/offensive-security/defense-evasion/using-syscalls-directly-from-visual-studio-to-bypass-avs-edrs)
+- [MITRE T1055, Process Injection](https://attack.mitre.org/techniques/T1055/)
+- [MITRE T1562, Impair Defenses](https://attack.mitre.org/techniques/T1562/)

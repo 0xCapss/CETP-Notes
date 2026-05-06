@@ -135,7 +135,7 @@
     },
     "assets": {
       "children": [
-        "assets/1-Windows Architecture.png",
+        "assets/1-Windows-Architecture.png",
         "assets/1-PE-Diagram.png",
         "assets/17-Windows-Internals-LSASS-Dump-Memory.png",
         "assets/16-Windows-Internals-LSASS-Modify-Protection.png",
