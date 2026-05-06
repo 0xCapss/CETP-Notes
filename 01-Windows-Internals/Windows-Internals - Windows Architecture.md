@@ -45,7 +45,8 @@ The call flow from a user process to the kernel goes through four layers.
 
 > **Offensive relevance.** EDRs hook functions inside `ntdll.dll` to intercept API calls before they reach the kernel. By calling syscalls directly, bypassing `ntdll.dll` entirely, an attacker can avoid these hooks. This technique is known as **direct syscalls** and is a core evasion method covered in the CETP.
 
-![Execution flow](2-Windows-Architecture-Execution-flow.png)
+
+![Execution flow](../assets/2-Windows-Architecture-Execution-flow.png)
 ---
 ## Offensive Relevance Summary
 
