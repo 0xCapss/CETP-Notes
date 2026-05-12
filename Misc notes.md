@@ -5,3 +5,4 @@
 #Then restart this VM by running 
 shutdown -r -t 0 
 ```
+![Connexion success](../assets/L02-Successfuly-Connexion.png)

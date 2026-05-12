@@ -161,7 +161,7 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Windows Architecture.md": {
-    "scroll": 32.139973958333336,
+    "scroll": 48.9711242107783,
     "cursor": {
       "from": {
         "line": 46,
@@ -231,7 +231,7 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md": {
-    "scroll": 84.94866071428571,
+    "scroll": 82.75818452380952,
     "cursor": {
       "from": {
         "line": 124,
@@ -360,12 +360,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 0
+        "line": 7,
+        "ch": 61
       },
       "to": {
-        "line": 6,
-        "ch": 0
+        "line": 7,
+        "ch": 61
       }
     },
     "expandedKeys": []
