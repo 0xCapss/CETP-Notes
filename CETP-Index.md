@@ -1,6 +1,6 @@
 # CETP — Index
 
-> Certified Evasion Techniques Professional — Altered Security
+> Certified Evasion Techniques Professional by Altered Security
 ## Progress
 
 | Module | Title                              | Status | LOs                 |

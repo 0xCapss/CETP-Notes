@@ -13,8 +13,6 @@ PROCESS ffff968ebc89c080
     DirBase: 006d5000  ObjectTable: ffffab034c43ff00  HandleCount: 1775.
     Image: System
 ```
-
-
 - Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to Hide the cmd process.
 - Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to change the notepad process protection level to PsProtectedSignerAntimalware-Light and remove the LSA protection from LSASS.
 - Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to hide a loaded driver.

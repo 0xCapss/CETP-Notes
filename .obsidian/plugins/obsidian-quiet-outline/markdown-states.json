@@ -48,12 +48,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 17
+        "line": 0,
+        "ch": 6
       },
       "to": {
-        "line": 24,
-        "ch": 17
+        "line": 0,
+        "ch": 7
       }
     },
     "expandedKeys": [
@@ -231,7 +231,7 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md": {
-    "scroll": 129.06872425941546,
+    "scroll": 131.74614583333334,
     "cursor": {
       "from": {
         "line": 93,
@@ -245,7 +245,7 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - User Mode.md": {
-    "scroll": 120.9330390265618,
+    "scroll": 145.36279296875,
     "cursor": {
       "from": {
         "line": 79,
@@ -346,11 +346,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 19,
+        "line": 17,
         "ch": 83
       },
       "to": {
-        "line": 19,
+        "line": 17,
         "ch": 83
       }
     },
