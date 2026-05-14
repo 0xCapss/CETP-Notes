@@ -189,7 +189,7 @@
     "expandedKeys": []
   },
   "02-EDR-Internals/EDR-Internals.md": {
-    "scroll": 18.860026041666668,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 50,
@@ -245,7 +245,7 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - User Mode.md": {
-    "scroll": 145.36279296875,
+    "scroll": 81.35631375307773,
     "cursor": {
       "from": {
         "line": 79,
@@ -343,15 +343,15 @@
     "expandedKeys": []
   },
   "00-Lab/Learning objective 2.md": {
-    "scroll": 32.30952380952381,
+    "scroll": 18.279761904761905,
     "cursor": {
       "from": {
-        "line": 40,
-        "ch": 37
+        "line": 39,
+        "ch": 0
       },
       "to": {
-        "line": 40,
-        "ch": 37
+        "line": 39,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -371,6 +371,20 @@
     "expandedKeys": []
   },
   "00-Lab/Learning objective 3.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "00-Lab/Learning objective 6.md": {
     "scroll": 0,
     "cursor": {
       "from": {
