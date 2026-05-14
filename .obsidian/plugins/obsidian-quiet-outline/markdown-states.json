@@ -360,12 +360,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 61
+        "line": 2,
+        "ch": 0
       },
       "to": {
-        "line": 7,
-        "ch": 61
+        "line": 2,
+        "ch": 84
       }
     },
     "expandedKeys": []
