@@ -12,6 +12,13 @@ PROCESS ffff968ebc89c080
     SessionId: none  Cid: 0004    Peb: 00000000  ParentCid: 0000
     DirBase: 006d5000  ObjectTable: ffffab034c43ff00  HandleCount: 1775.
     Image: System
+    
+1: kd> !process 0 0 cmd.exe
+PROCESS ffffcc03c37a30c0
+    SessionId: 2  Cid: 1a88    Peb: 6cd2dca000  ParentCid: 0824
+    DirBase: 5b99e000  ObjectTable: ffffde0586d59a80  HandleCount:  82.
+    Image: cmd.exe
+
 ```
 - Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to Hide the cmd process.
 - Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to change the notepad process protection level to PsProtectedSignerAntimalware-Light and remove the LSA protection from LSASS.
