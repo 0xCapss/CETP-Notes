@@ -3,8 +3,7 @@
 ```bash
 0: kd> dt !_eprocess token
 nt!_EPROCESS
-   +0x4b8 Token : _EX_FAST_REF
-   
+   **+0x4b8** Token : _EX_FAST_REF
 ```
 - Then, we need to find the `_EPROCESS` of a `SYSTEM` and for `cmd.exe`process via `!process 0 0`
 ```bash
