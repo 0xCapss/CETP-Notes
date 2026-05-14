@@ -231,15 +231,15 @@
     "expandedKeys": []
   },
   "01-Windows-Internals/Windows-Internals - Process - Kernel Mode.md": {
-    "scroll": 78.64192708333333,
+    "scroll": 79.42513020833333,
     "cursor": {
       "from": {
-        "line": 93,
-        "ch": 4
+        "line": 95,
+        "ch": 3
       },
       "to": {
-        "line": 93,
-        "ch": 64
+        "line": 95,
+        "ch": 71
       }
     },
     "expandedKeys": []
@@ -343,15 +343,15 @@
     "expandedKeys": []
   },
   "00-Lab/Learning objective 2.md": {
-    "scroll": 0,
+    "scroll": 32.30952380952381,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 83
+        "line": 40,
+        "ch": 37
       },
       "to": {
-        "line": 24,
-        "ch": 83
+        "line": 40,
+        "ch": 37
       }
     },
     "expandedKeys": []
@@ -365,6 +365,20 @@
       },
       "to": {
         "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "00-Lab/Learning objective 3.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },

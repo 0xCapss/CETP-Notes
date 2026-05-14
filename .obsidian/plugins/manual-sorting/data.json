@@ -166,6 +166,8 @@
     },
     "assets": {
       "children": [
+        "assets/L02-Becoming-system.png",
+        "assets/L02-Changing-token.png",
         "assets/L02-Successfuly-Connexion.png",
         "assets/L01-Inspect-the-heap.png",
         "assets/L01-Inspect-RWX.png",
