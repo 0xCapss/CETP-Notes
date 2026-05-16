@@ -36,10 +36,11 @@ nt!_EX_FAST_REF
    +0x000 Object           : 0xffffde05`80c18798 Void
    +0x000 RefCnt           : 0y1000
    +0x000 Value            : 0xffffde05`80c18798
-
 ```
 ![](../assets/L02-Changing-token.png)
 ![](../assets/L02-Becoming-system.png)
+
 - Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to Hide the cmd process.
+
 - Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to change the notepad process protection level to PsProtectedSignerAntimalware-Light and remove the LSA protection from LSASS.
 - Use Windbg Remote X-Mktg-X Kernel Debugging on StudentVM to hide a loaded driver.
